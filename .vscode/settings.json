@@ -1,7 +1,7 @@
 {
-    "editor.fontSize": 13,
-    //"editor.fontFamily": "Cascadia code",
-    "editor.lineHeight": 20,
+    //"editor.fontSize": 12,
+    //"editor.fontFamily": "Fira code Retina",
+    //"editor.lineHeight": 17,
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
@@ -10,14 +10,92 @@
     "editor.fontLigatures": true,
     "editor.showUnused": true,
     "editor.wordWrap": "on",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Cascadia Code",
+    //"terminal.integrated.fontSize": 12,
+    //"terminal.integrated.fontFamily": "Fira code Retina",
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": "off",
         "editor.formatOnSave": true
     },
+    /*
+    "workbench.colorCustomizations": {
+    "tab.activeBackground": "#FFFFFF",       // Cor de fundo da aba ativa.
+    "tab.activeForeground": "#FFFFFF",       // Cor do texto da aba ativa.
+    "tab.inactiveBackground": "#2E2E2E",     // Cor de fundo das abas inativas.
+    "tab.inactiveForeground": "#CCCCCC",     // Cor do texto das abas inativas.
+    "tab.hoverBackground": "#3E3E3E",        // Cor de fundo ao passar o mouse sobre uma aba inativa.
+    "tab.hoverForeground": "#FFFFFF",        // Cor do texto ao passar o mouse sobre uma aba inativa.
+    "tab.unfocusedActiveBackground": "#1E1E1E", // Cor de fundo da aba ativa quando a janela não está em foco.
+    "tab.unfocusedActiveForeground": "#CCCCCC",  // Cor do texto da aba ativa quando a janela não está em foco.
+    
+
+    "titleBar.activeBackground": "#FFFF",    // Cor de fundo da barra de título ativa (com a janela selecionada).
+    "titleBar.activeForeground": "#FF0000",    // Cor do texto da barra de título ativa.
+    "titleBar.inactiveBackground": "#FFFFFF",  // Cor de fundo da barra de título inativa (com a janela não selecionada).
+    "titleBar.inactiveForeground": "#CCCCCC" ,    
+
+    "activityBar.background": "#FFFFFF",          // Cor de fundo da Activity Bar (barra de extensões).
+    "activityBar.foreground": "#FF0000",          // Cor dos ícones das extensões.
+    "activityBar.border": "#FF0000",              // (Opcional) Cor da borda da Activity Bar.
+    "activityBarBadge.background": "#FF0000",     // Cor de fundo dos badges (indicadores) nas extensões.
+    "activityBarBadge.foreground": "#FF0000",     // Cor do texto dos badges (indicadores) nas extensões.
+    "activityBar.activeBorder": "#00FF00" ,    
+    "sideBar.background": "#FFFFFF", // Mudar o fundo da barra de arquivos.
+    "sideBar.foreground": "#FFA500", // Mudar a cor do texto dos arquivos.
+    "sideBar.border": "#FF0000", // (Opcional) Mudar a cor da borda da barra lateral.
+    "sideBar.dropBackground":"#FFFFFF",
+    "sideBarSectionHeader.background":"#FFFFFF",
+    "sideBarStickyScroll.background":"#ffffff",
+    "sideBySideEditor.horizontalBorder":"#FFFFFF",
+    "editorGutter.background": "#000000",         // Cor de fundo do gutter (barra dos números das linhas).
+    "editorLineNumber.activeForeground": "#13bddc",
+    "sideBarActivityBarTop.border":"#13bddc",
+    "list.activeSelectionBackground": "#13bddc",   // Cor de fundo da linha selecionada (ativa).
+    "list.activeSelectionForeground": "#FFFFFF",   // Cor do texto da linha selecionada (ativa).
+    "list.inactiveSelectionBackground": "#13bddc", // Cor de fundo da linha selecionada (inativa).
+    "list.inactiveSelectionForeground": "#FFFFFF", // Cor do texto da linha selecionada (inativa).
+    "list.hoverBackground": "#13bddc",             // Cor de fundo quando o mouse passa sobre um item.
+    "list.hoverForeground": "#FFFFFF",  
+    "terminal.background": "#FFFFFF",  // Cor de fundo do terminal
+    "terminal.foreground": "#0000FF",  // Cor do texto no terminal
+    "terminalCursor.background": "#FF0000",  // Cor do fundo do cursor
+    "terminalCursor.foreground": "#FF0000",  // Cor do cursor
+    "terminal.ansiBrightGreen": "#5FFF5F",
+    "terminal.ansiGreen": "#00FF00",
+    "terminal.ansiRed": "#FF0000",    
+    "editor.background": "#000000",
+    "editor.foreground": "#FF0000",  // Cor padrão do texto
+    "editorLineNumber.foreground": "#0000FF", // Cor dos números das linhas
+    "editorCursor.foreground": "#13bddc", // Cor do cursor
+    "editor.selectionForeground": "#13bddc", // Cor do texto selecionado
+    "editorBracketMatch.foreground": "13bddc", // Cor para correspondência de parênteses
+    }, // Cor das guias de indentação
+    "editor.tokenColorCustomizations": {
+    "comments": "#FFA500", // Cor dos comentários
+    "keywords": "#0000FF", // Cor das palavras-chave
+    "strings": "#FFA500",  // Cor das strings
+    "variables": "#2710d8", // Cor das variáveis
+    "functions": "#00FFFF", // Cor das funções
+    "textMateRules": [
+        {
+            "scope": "keyword",  // Muda o estilo de palavras-chave (como if, else, etc.)
+            "settings": {
+                //"foreground": "#FF0000",  // Cor vermelha
+                "fontStyle": "italic"       // Negrito
+            }
+        },
+        {
+            "scope": "string",  // Muda o estilo de strings (texto entre aspas)
+            "settings": {
+                //"foreground": "#00FF00",  // Cor verde
+                "fontStyle": "italic"     // Itálico
+            }
+        }
+    ]
+    },
+   
+    */    
     "latex-workshop.view.pdf.viewer": "tab",
     "python.defaultInterpreterPath": "venv/bin/python3",
     "python.linting.flake8Enabled": true,
@@ -28,6 +106,7 @@
     },
     "python.analysis.extraPaths": [
         "./src"
+        
     ],
     
     "excalidraw.image": {

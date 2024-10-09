@@ -1,0 +1,75 @@
+ \documentclass{article}
+
+ usepackage[legalpaper, left=1 cm, right=1cm, top=0.5cm, bottom=0.5cm] {geometry}
+
+ \date{} % Remove a exibição da data
+
+ \usepackage{xcolor}
+
+ \usepackage{listings}
+
+ \usepackage{graphicx}
+
+ \usepackage{hyperref} % Para criar links
+
+ \usepackage[utf8]{inputenc}
+
+ \usepackage[T1]{fontenc}
+
+  
+
+ \lstset{
+
+ language=python,
+
+ basicstyle=\ttfamily,
+
+ keywordstyle=\bfseries\color{blue},
+
+ commentstyle=\color{blue},
+
+ stringstyle=\color{red!70!black},
+
+ numberstyle=\tiny,
+
+ stepnumber=1,
+
+ numbersep=5pt,
+
+ backgroundcolor=\color{white},
+
+ breaklines=true,
+
+ breakautoindent=true,
+
+ showspaces=false,
+
+ showstringspaces=false,
+
+ showtabs=false,
+
+ tabsize=2,
+
+ literate={~}{{\textasciitilde}}1, % Trata ~ como um caractere normal
+
+ extendedchars=true, % Permite caracteres estendidos (acentos, etc.)
+
+ inputencoding=utf8, % Define a codificação de entrada como UTF-8
+
+ literate={á}{{\'a}}1 {ã}{{\~a}}1 {ç}{{\c{c}}}1
+ }
+
+ \title{Modulo 4}
+
+ \begin{document}
+
+ \maketitle
+
+  
+\end{document}
+
+ \section{}
+
+ \begin{lstlisting}
+
+ \end{lstlisting}
